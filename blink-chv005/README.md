@@ -4,11 +4,11 @@ A minimal blink example for the WCH CH32V005 microcontroller using PlatformIO an
 
 ## Overview
 
-This project demonstrates basic GPIO control by periodically toggling **PC7**.
+This project demonstrates basic GPIO control by periodically toggling **PC4**.
 
 * Framework: ch32fun
 * Build system: PlatformIO
-* GPIO: PC7
+* GPIO: PC4
 
 ## Hardware
 
