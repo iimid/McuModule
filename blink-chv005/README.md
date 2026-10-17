@@ -1,22 +1,20 @@
-CH32V005 Blink Example
+# CH32V005 Blink Example
 
 A minimal blink example for the WCH CH32V005 microcontroller using PlatformIO and ch32fun.
 
-Overview
+## Overview
 
-This project demonstrates basic GPIO control by periodically toggling PC7.
+This project demonstrates basic GPIO control by periodically toggling **PC7**.
 
-* MCU: WCH CH32V005
 * Framework: ch32fun
 * Build system: PlatformIO
 * GPIO: PC7
-* Blink interval: 333 ms
 
-Hardware
+## Hardware
 
-![CH32V005 Blink Hardware](blink-ch32v005.png)
+<img src="blink-ch32v005.png" width="65%">
 
-Build
+## Build
 
 1. Install Visual Studio Code.
 2. Install the PlatformIO IDE extension.
@@ -24,7 +22,7 @@ Build
 4. Open this project folder in Visual Studio Code.
 5. Build the project using PlatformIO.
 
-Source Code
+## Source Code
 
 * src/main.c — Main application
 * src/funconfig.h — ch32fun configuration
